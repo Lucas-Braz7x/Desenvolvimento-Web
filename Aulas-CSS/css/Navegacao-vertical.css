@@ -1,0 +1,30 @@
+ul{
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+ul a{
+    border: 1px solid blue;
+    width: 200px;
+    height: 40px;
+    display: block;
+    color: #000;
+    text-decoration: none;
+    text-indent: 40px;/*Funciona como um padding só para texto*/
+    line-height: 40px; /*Espaçamento vertical do texto*/
+    background: #f7b600 url(../imagens/menu.png) no-repeat;
+    
+}
+
+a:hover{
+    color: #fff;
+    background-position:right bottom  ;
+}
+
+#home #navegacao .home a,
+#sobre #navegacao .sobre a{
+    color: #fff;
+    background-position:right bottom  ;
+
+}
