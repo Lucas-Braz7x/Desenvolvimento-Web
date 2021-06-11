@@ -26,6 +26,16 @@ body{
 	text-indent: -3000px;
 }
 
+/*Links*/
+a:link, a:visited{
+	color: #b10333;
+	padding: 2px;
+}
+
+a:hover{
+	color: #e50040;
+}
+
 ul{
 	margin: 0;
 	padding: 0;
@@ -46,7 +56,7 @@ ul{
 	font-size:0.9em;
 	display: block;
 	padding: 0.5em 1.5em;
-	line=height: 2.1 em;
+	line-height: 2.1 em;
 	text-decoration: none;
 	color: #fff;
 	background: url(../Imagens/divisor.png) no-repeat left center;
@@ -89,7 +99,7 @@ body.fotos #navegacao a#fotos{
 	margin: 0 0 20px 195px;
 }
 
-#uma-colunas #lateral{
+#uma-colunas #primario{
 	width: 720px;
 	float: left;
 	margin: 0 0 20px 0px;
@@ -139,6 +149,87 @@ h2{
 	background: #f9f9f9 url(../imagens/marcador.png) no-repeat left center;
 	padding-left: 20px;
 	color: #a1a1a1;
+}
+
+/*FORMATANDO FORMUL�RIO*/
+label{
+	display: block;
+	cursor: pointer;
+}
+
+input{
+	width: 125px;
+	padding: 5px;
+	font-size: 00.9em;
+	background-color: #fff;
+}
+
+input.submit{
+	width: 80px;
+	color: #fff;
+	background-color: #b10333;
+	border: 2px solid #870529;
+}
+/*#######################################*/
+
+/*Formatando imagens*/
+
+img.imagem-principal{
+	width: 98%;
+	border: 3px solid #dfdfdf
+}
+
+/*Formatando h3*/
+h3{
+	text-transform: uppercase;
+	display: inline;
+	font-size: 0.8em;
+	padding: 3px;
+}
+
+.destaque h3{
+	background: #b10333;
+	color: #fff;
+}
+
+.entrevista h3{
+	background: #de003e;
+}
+
+/*FORMATANDO LISTA DE NOTICIAS*/
+#lista-noticias li{
+	padding: 2px;
+	border-bottom: 1px solid #ccc;
+	height: 62px;
+	float:left;
+	background: white;
+ 
+}
+
+#lista-noticias li a img{
+	float: left;
+	margin: 5px;
+}
+
+#lista-noticias li a{
+	text-decoration: none;
+}
+
+#lista-noticias li a h3{
+	font-size: 0.8em;
+	padding: 0;
+	color: #3e7ab9;
+}
+
+#lista-noticias li a p{
+	font-size: 0.7em;
+	clear: right;
+	color: black;
+}
+
+#lista-noticias li:hover{
+	background: #eee;
+	cursor: pointer;
 }
 
 #container-rodape{
