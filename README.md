@@ -1,3 +1,5 @@
-# Desenvolvimento-Web
+﻿# Sites estáticos
 
-Repositório cirado para alocar aulas e mini projetos fullstack
+Repositório criado para sites estáticos
+
+HTML e CSS
