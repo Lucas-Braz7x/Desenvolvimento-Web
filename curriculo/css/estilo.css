@@ -1,0 +1,154 @@
+/*Estrutura do site*/
+body{
+    background: #f4f2ec;
+    font: 12px;
+    margin: 0;
+    padding: 0;
+    background: url(../imagens/fundo-tecnlogia.jpg) repeat-y;
+}
+
+/*Formatações do cabeçalho*/
+header{
+    background: #535858 url(../imagens/fundo-cinza.jpg) no-repeat center left;
+    opacity: 0.95;
+    padding: 15px 0;
+    width: 100%;
+    height: 55px;
+}
+
+nav ul{
+    float: right;
+    list-style: none;/*Tem que ser aplicado na lista e não nos componentes da lista*/
+    margin: 20px;
+}
+
+nav ul li{
+    float: left;
+}
+
+nav ul li a:link{
+    display: block;
+    margin-right: 25px;
+    padding-bottom: 3px;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover{
+    border-bottom: 1px solid #535858;
+}
+
+
+
+#container{
+    margin: 0 auto;
+    height: auto;
+    background: url(../imagens/fundo-tecnlogia.jpg) repeat-y;
+    background-size: cover;
+    min-width: 1380px;
+}
+
+/*Formatação de link*/
+a:link, a:active, a:visited{
+    color: #af670a;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #227115;
+}
+
+/*foto-perfil*/
+
+#foto-perfil{
+    opacity:1;
+}
+    #foto-perfil h1{
+    padding-left: 10px;
+    float: left;
+}
+
+#foto-perfil a{
+    
+    width: 280px;
+    height: 280px;
+    text-indent: -9999px;
+    display: block;
+    background: url(../imagens/foto-perfil.jpg) no-repeat center;
+    border-radius: 140px;
+}
+
+/*-------------Principal----------------*/
+#conteudo{
+    margin: 5px auto;
+    margin-left: 20px;
+    width: 800px;
+    float: left;
+    background: #383838;    
+    opacity: 0.9;
+    padding: 5px 30px 5px 30px;
+}
+
+#informacao, #experiencia{
+    color: white;
+}
+#informacao h1, #conhecimentos h1, #experiencia h1{
+    color: #cdc8b1;
+    text-align: center;
+    margin: 5px;
+    border-top: 1px solid #cdc8b1;
+    border-bottom: 1px solid #cdc8b1;
+}
+
+/*Conhecimentos*/
+#conhecimentos{
+    text-align: center;
+}
+
+#conhecimentos div ul {
+    list-style: none;/*Tem que ser aplicado na lista e não nos componentes da lista*/
+    margin: 20px;
+}
+
+#conhecimentos div ul li{
+    display: inline;
+    padding: 5px 15px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+h4{
+    color: #86521a;
+    text-transform: uppercase;
+    padding-bottom: 3px;
+    margin-bottom: 0;
+}
+
+footer{
+    clear: both;
+    background: #383838;    
+    opacity: 0.7;
+    width: 860px;
+    height:100px;
+    text-align: center;
+    margin: 5px 0 20px 310px;
+    
+}
+
+footer h3{
+    padding-top: 10px;
+    color: #cdc8b1;
+    text-align: center;
+}
+
+footer ul{
+    list-style: none;
+    padding-bottom: 10px;
+}
+
+footer ul li{
+    display: inline;
+    margin: 0px 20px;
+    text-align: center;
+}
+
+
