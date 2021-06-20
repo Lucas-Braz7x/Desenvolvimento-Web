@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: 'Times New Roman', Times, serif;
+  width: 100%; 
+}
+header{
+  display: flex;
+  width: 100%;
+  height: 160px;
+  background: #fff url(../imagens/fundo-header.png) no-repeat left;
+  background-size: cover;
+  flex-direction: column;
+}
+#buscar{
+  flex: 1;
+  text-align: right;
+  margin:12px 65px 0 0 ;
+  
+}
+#lupa{
+  background: #fff url(https://img.icons8.com/material-sharp/24/000000/search.png) no-repeat left;
+  width: 250px;
+  height: 30px; 
+  float: right;   
+  border: 2px solid rgb(92, 92, 92);
+  border-radius: 10px;
+  text-indent: 30px; 
+}
+
+nav{
+  display: flex;
+  background: blue;
+  margin: 0 auto;
+  height: 30px;
+  text-align: center;
+  line-height: 1.0em;
+  border-bottom: 2px solid yellow;
+  padding: 5px 2px 0 2px;
+  justify-content: space-around;
+}
+
+nav ul{
+  margin: 0 auto;
+  
+  text-decoration: none;
+  margin-top: 5px;
+}
+
+nav ul li{
+  list-style: none;
+  display: inline;
+  
+}
+
+nav ul li a {
+  color: #fff;
+  list-style: none;
+  text-decoration: none;
+}
